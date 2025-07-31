@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A sample HTML5 page showcasing semantic structure, accessibility, and basic SEO principles.">
+  <meta name="author" content="Ominde">
+  <title>Accessible & SEO-Friendly Web Page</title>
+</head>
+<body>
+  <header role="banner">
+    <h1>Welcome to My Web Page</h1>
+    <nav role="navigation" aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This page is built using semantic HTML5 tags to demonstrate accessibility and SEO best practices. It ensures human readability and is optimized for search engines.</p>
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <p>We focus on creating intuitive, accessible, and performant web experiences. Our services include web development, UX design, and tech-driven community empowerment.</p>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        <p>Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
+        <p>Phone: +254 712 345 678</p>
+      </address>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Ominde. All rights reserved.</p>
+  </footer>
+</body>
+</html>
