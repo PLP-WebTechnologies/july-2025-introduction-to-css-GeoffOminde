@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Understanding AI Regulation & Ethics</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Page header and simple navigation -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a class="logo" href="#">AIRegEthics<span class="dot">.</span></a>
+        <ul class="nav-links">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#issues">Key Issues</a></li>
+          <li><a href="#policy-lab">Policy Lab</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <h1>Understanding AI Regulation & Ethics</h1>
+        <p>As AI reshapes work, privacy, and power, who sets the guardrails? Explore core concepts, risks, and practical pathways to accountable AI.</p>
+        <a class="btn" href="#issues">Explore key issues</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Overview & definitions -->
+    <section id="overview" class="section">
+      <div class="container">
+        <h2>Overview and definitions</h2>
+        <p class="muted">A quick primer on what we mean by AI, regulation, and ethics—so we’re speaking the same language.</p>
+
+        <h3>What is AI?</h3>
+        <p>Artificial intelligence refers to systems that learn patterns and make predictions or decisions. It spans recommendation engines, chat systems, computer vision, and more.</p>
+
+        <h3>Regulation vs. self-governance</h3>
+        <p>Regulation is public oversight via law or standards. Self-governance includes company policies, model cards, audits, and red-teaming—useful, but not a substitute for accountability.</p>
+
+        <h3>Ethics in practice</h3>
+        <ul>
+          <li><strong>Fairness:</strong> Minimize biased outcomes across groups.</li>
+          <li><strong>Privacy:</strong> Respect consent and data minimization.</li>
+          <li><strong>Transparency:</strong> Explain how systems work and are used.</li>
+          <li><strong>Safety:</strong> Reduce harm and enable recourse.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Cards: key issues -->
+    <section id="issues" class="section section-alt">
+      <div class="container">
+        <h2>Key issues to watch</h2>
+        <p class="muted">Three hot spots where policy choices today will shape outcomes for years.</p>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Job automation</h3>
+            <p>AI shifts tasks, not just jobs. The policy question: how to balance innovation with worker transition, training, and dignity.</p>
+            <a class="btn btn-ghost" href="#policy-lab">See policy levers</a>
+          </article>
+
+          <article class="card">
+            <h3>Data privacy</h3>
+            <p>From scraping to surveillance, data flows power AI. Consent, purpose limits, and deletion rights are critical safeguards.</p>
+            <a class="btn btn-ghost" href="#policy-lab">See policy levers</a>
+          </article>
+
+          <article class="card">
+            <h3>Ethical dilemmas</h3>
+            <p>Bias, opacity, and autonomous decisions raise tough questions. Audits, documentation, and human oversight build trust.</p>
+            <a class="btn btn-ghost" href="#policy-lab">See policy levers</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Policy Lab (keeps your Box Model demos, reframed) -->
+    <section id="policy-lab" class="section">
+      <div class="container">
+        <h2>Policy Lab</h2>
+        <p class="muted">Think of “layers” in regulation the way we visualize CSS boxes—principles, safeguards, and enforcement stack to shape outcomes.</p>
+
+        <div class="demo-grid">
+          <!-- Principles only -->
+          <div class="box-demo">
+            <h3>Principles only</h3>
+            <div class="box content-only">High-level principles</div>
+            <p class="explain">Values without specifics. Directional but easy to ignore without mechanisms.</p>
+          </div>
+
+          <!-- Safeguards (padding) -->
+          <div class="box-demo">
+            <h3>Guidelines with safeguards</h3>
+            <div class="box padded">Documentation + audits</div>
+            <p class="explain">Safeguards create “inner space” for due diligence—like risk registers, model cards, and evaluations.</p>
+          </div>
+
+          <!-- Enforcement (border) -->
+          <div class="box-demo">
+            <h3>Enforceable regulation</h3>
+            <div class="box bordered">Standards + penalties</div>
+            <p class="explain">Clear boundaries with accountability. Certification, incident reporting, and penalties deter abuse.</p>
+          </div>
+        </div>
+
+        <div class="margin-lab">
+          <h3>Buffers for innovation</h3>
+          <p class="muted">The parent has a contrasting background. The visible gap around each tile is a <strong>buffer</strong>—think regulatory sandboxes and phased rollouts.</p>
+          <div class="tiles">
+            <div class="tile">Pilot A</div>
+            <div class="tile">Pilot B</div>
+            <div class="tile">Pilot C</div>
+          </div>
+        </div>
+
+        <div class="box-sizing-lab">
+          <h3>Scope and accountability (a sizing analogy)</h3>
+          <p class="muted">Two systems with the same “width” of ambition can differ in accountability. With <code>border-box</code>, safeguards count inside the scope.</p>
+          <div class="box-sizing-row">
+            <div class="bs-item">
+              <div class="bs-box content-box">Ambition only</div>
+            </div>
+            <div class="bs-item">
+              <div class="bs-box border-box">Ambition + safeguards</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Built with pure CSS. No libraries, no JavaScript — just fundamentals applied to AI Regulation & Ethics.</p>
+    </div>
+  </footer>
+</body>
+</html>
